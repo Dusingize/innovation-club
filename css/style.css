@@ -1,0 +1,25 @@
+body {
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px; 
+}
+
+
+
+/*/section start here*/
+.nav-search input {
+	background-color: #000;
+}
+.nav-search button {
+	background-color: red;
+	color: #fff;
+}
+.nav-search button:hover {
+	color: #fff;
+	background-color: #000;
+}
+li:hover {
+	font-size: 30px;
+	font-color: red;
+}
+
