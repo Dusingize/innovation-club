@@ -1,10 +1,9 @@
 body {
 	padding-top: 20px;
-	padding-left: 5px;
+	padding-left: 0px;
 	padding-right: 5px; 
+	font-family: 'Lobster', cursive;
 }
-
-
 
 /*/section start here*/
 .nav-search input {
@@ -18,19 +17,25 @@ body {
 	color: #fff;
 	background-color: #000;
 }
-li:hover {
+.header ul li:hover {
 	font-size: 30px;
 	font-color: red;
 }
-.list-inline {
+.stef ul li {
 	word-spacing: 30px;
-	shape-outside: circle;
-}
-.media ul li {background-color:red;
+	background-color: black;
 	text-align: center;
+	shape-outside: circle;
 	width: 30px;
 	height: 30px;
 	border-radius: 30px;
+	color: white;
+}
+.stef ul li:hover {background-color:red;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	shape-outside: circle;
 }
 .header ul li:hover {
 	color: red;
@@ -38,15 +43,11 @@ li:hover {
 .motives {
 	padding-top: 50px;
 }
-img {
-	width: 1100px;
-	height: 450px;
-}
-* {box-sizing:border-box}
+/** {box-sizing:border-box}*/
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
 }
@@ -142,4 +143,40 @@ img {
 }
 .caption {
 	float-left: 0px;
+}
+.medias img {
+	height: 145px;
+	width: 225px;
+}
+.life head {
+	color: red;
+}
+.cv img {
+	height: 80px;
+	width: 80px;
+}
+.tire{
+	color: red;
+}
+footer {
+	padding-top: 10px;
+	margin: auto;
+}
+.mike {
+	font-family: 'Lobster', cursive;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Sumana', serif;
+}
+.cv {
+	font-family: 'Lobster', cursive;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Sumana', serif;
+}
+.medias {
+	font-family: 'Lobster', cursive;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Sumana', serif;
 }
